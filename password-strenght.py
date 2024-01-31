@@ -1,10 +1,15 @@
+# Gabriel Domingues Silva
+# gabriel.domingues.silva@usp.br
+# github.com/gds-domingues
+
 # Import Libraries
-import numpy as np
-import random
 from sklearn.feature_extraction.text import TfidfVectorizer
-import pandas as pd
 from sklearn.cross_validation import train_test_split
 from sklearn.linear_model import LogisticRegression
+import numpy as np
+import random
+import pandas as pd
+
 
 # Custom Tokenizer Function
 def getTokens(inputString):
